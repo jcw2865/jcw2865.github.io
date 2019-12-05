@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,43 +9,61 @@
     <link rel="stylesheet" href="assets/css/style1.css">
     <link rel="stylesheet" href="assets/css/style2.css">
 </head>
+
 <body>
     <div class="container-1">
-        
+
         <!--Header for my name-->
         <header id="header">
             Jake Walker
         </header>
-         
+
         <!--Nav bar for "About", "Portfolio", and "Contact" buttons-->
-        <nav id="nav">
-                <a href="#">About</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contact</a>
-        </nav>
-    
+        <ul id="nav">
+            <li><a class="button" href="#">About</a></li>
+            <li><a class="button" id="portfolio" href="portfolio.html">Portfolio</a></li>
+            <li><a class="button" href="contact.html">Contact</a></li>
+        </ul>
+
     </div>
-    <!--A container for the H1 title "About Me", its contents, and an image-->
+
+    <!--A container for the H1 title "About Me" and container-3 w/ img & contents-->
     <div class="container-2">
-        
+
         <!--Heading "About Me"-->
         <h1 class="box" id="box-1">About Me</h1>
-        
-        <figure class="box" id="box-2">
-        
-            <!--Image for "About Me" section-->
-        
-            <img src="assets/images/dog-with-glasses-and-shirt-at-computer.jpg" alt="About Me image" id="image">
-        
-        </figure>
-        
-        <!--Contents of "About Me" section-->
-        <p class="box" id="box-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, maxime dolorem? Laudantium libero ratione a laboriosam explicabo commodi. Maxime explicabo expedita quia earum amet doloribus molestiae iste dignissimos, accusamus adipisci.
-        </p>
-        
+
+        <div class="container-3">
+
+            <figure class="box" id="box-2">
+
+                <!--Image for "About Me" section-->
+
+                <img src="assets/images/IMG_3836.jpeg" alt="About Me image">
+
+            </figure>
+
+            <!--Contents of "About Me" section-->
+            <p class="box" id="box-3">
+                My background is in operations and project management. For the past five years I have worked with both
+                large organizations such as the United States Army as well as burgeoning tech start-ups. I am now looking
+                to bring my operational skills to the field of web development and help organizations achieve their
+                goals with efficiency and reliability.
+            </p>
+
+            <!--Contents of "About Me" section-->
+            <p class="box" id="box-4">
+                I have been married to my beautiful wife, Natalie, since May 18th, 2019, and we have a three year old
+                Jack-Russel/Shi-Tsu mix named Scoots. I love doing all sorts of things, but I especially enjoy spending time with
+                friends and family, being active, and experimenting in the kitchen. All of that being said, I really do find joy in most
+                things and am always eager to learn something new and try something for the first time.
+            </p>
+
+        </div>
     </div>
+
     <!--Footer-->
-    <footer>Copyright</footer>
+    <footer>Copyright ©</footer>
 </body>
+
 </html>
