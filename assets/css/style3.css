@@ -30,8 +30,19 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: white;
     padding: 20px;
     margin: 0 auto;
     margin-top: 50px;
+  }
+
+  #contactheader {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 20px;
+    flex-basis: 20%;
+    text-align: center;
+    padding-top: 25px;
+    position: relative;
   }
