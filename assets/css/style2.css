@@ -5,7 +5,10 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container-1 {
@@ -15,6 +18,7 @@ body {
     position: relative;
     height: 70px;
     width: 100%;
+    background-color: white;
 }
 
 #header {
@@ -71,14 +75,15 @@ li a {
     border-color: lightgray;
     height: 600px;
     width: 960px;
+    margin: 0 auto;
 }
 
 .container-3 {
     display: flex;
     flex-wrap: wrap;
-    border-top-style: solid;
+    /* border-top-style: solid;
     border-top-color: gray;
-    border-top-width: 2px;
+    border-top-width: 2px; */
     margin: 20px;
 }
 
@@ -97,6 +102,11 @@ li a {
     font-size: 30px;
     color: seagreen;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+hr {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #box-2 {
