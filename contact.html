@@ -7,6 +7,7 @@
     <title>Contact</title>
     <link rel="stylesheet" href="assets/css/style1.css">
     <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="assets/css/style3.css">
 </head>
 <body>
     <!-- Container for Header and Nav Bar -->
@@ -19,11 +20,32 @@
     
             <!--Nav bar for "About", "Portfolio", and "Contact" buttons-->
             <ul id="nav">
-                <li><a class="button" href="#">About</a></li>
+                <li><a class="button" href="index.html">About</a></li>
                 <li><a class="button" id="portfolio" href="portfolio.html">Portfolio</a></li>
                 <li><a class="button" href="contact.html">Contact</a></li>
             </ul>
     
         </div>
+
+    <!-- Container for Contact Info Content -->
+    <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith">
+          
+              <label for="lname">Email</label>
+              <input type="text" id="email" name="email" placeholder="example@gmail.com">
+          
+              <label for="subject">Message</label>
+              <textarea id="message" name="message" style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+
+    <!--Footer-->
+    <footer>Copyright ©</footer>
 </body>
 </html>
