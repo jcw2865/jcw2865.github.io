@@ -17,4 +17,10 @@ $(document).ready(function () {
         event.preventDefault();
         window.open("https://jcw2865.github.io/homework-4/");
     })
+    // Create click event to take user to their daily homepage
+    var dailyHomepage = $("#dailyHomepage");
+    dailyHomepage.on("click", function (event) {
+        event.preventDefault();
+        window.open("https://jcw2865.github.io/Project-1/");
+    })
 })
