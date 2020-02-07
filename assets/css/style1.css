@@ -78,8 +78,14 @@ footer {
 }
 h3 {
 	color: #666666;
-	/* background-color: #4aaaa5; */
+}
+.card-title {
+	font-size: x-large;
+	color: #4aaaa5;
 }
 a {
-	color: #666666;
+	color: white;
+}
+#aboutContainer {
+	margin: auto;
 }
