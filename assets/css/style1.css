@@ -47,7 +47,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-img {
+#aboutMeImg {
     max-width: 50%;
 	height: auto;
 	float: left;

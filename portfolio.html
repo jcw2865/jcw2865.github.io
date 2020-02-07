@@ -6,69 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="assets/css/style1.css">
-    <link rel="stylesheet" href="assets/css/style2.css">
+    <!-- <link rel="stylesheet" href="assets/css/style2.css">
     <link rel="stylesheet" href="assets/css/style3.css">
-    <link rel="stylesheet" href="assets/css/style4.css">
+    <link rel="stylesheet" href="assets/css/style4.css"> -->
 </head>
 
 <body>
-    <!-- Container for Header and Nav Bar -->
-    <div class="container-1">
+    <div class="container">
+        <!-- Container for Header and Nav Bar -->
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <!-- <h1>Jake Walker</h1> -->
+            <a class="flex-sm-fill text-sm-center nav-link">Jake Walker</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="index.html">About Me</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="portfolio.html">Portfolio</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="contact.html">Contact</a>
+        </nav>
 
-        <!--Header for my name-->
-        <header id="header">
-            Jake Walker
-        </header>
-
-        <!--Nav bar for "About", "Portfolio", and "Contact" buttons-->
-        <ul id="nav">
-            <li><a class="button" href="index.html">About</a></li>
-            <li><a class="button" id="portfolio" href="portfolio.html">Portfolio</a></li>
-            <li><a class="button" href="contact.html">Contact</a></li>
-        </ul>
-
-    </div>
-
-    <!-- Div Container for "Portfolio", HR, and Content -->
-    <div class="container-2">
-
-        <!-- Section for "Portfolio" -->
-        <section>
-            <h1>Portfolio</h1>
-        </section>
-
-        <!-- Thematic Horizontal Rule -->
-        <hr>
-
-        <!-- Div Container for Content -->
-        <div class="thumbnailcontainer">
-            <section class="picbox" id="passwordGenerator">
-                <div class="pictext">Password Generator</div>
-                <img class="image" src="assets/passgen.png" alt="Password Generator Screenshot">
-            </section>
-            <section class="picbox" id="dayPlanner">
-                <div class="pictext">Day Planner</div>
-                <img class="image" src="assets/WorkDayScheduler copy.png" alt="Day Planner Screenshot">
-            </section>
-            <section class="picbox" id="starWarsQuiz">
-                <div class="pictext">Star Wars Quiz</div>
-                <img class="image" src="assets/starwarsquiz.png" alt="Star Wars Quiz Screenshot">
-            </section>
-            <section class="picbox" id="dailyHomepage">
-                <div class="pictext">Daily Homepage (in progress)</div>
-                <img class="image" src="assets/project1inprogress.png" alt="Daily Homepage (in progress)">
-            </section>
-            <!-- <section class="picbox" id="leftpic">
-                <div class="pictext">Rock Paper Scissors</div>
-                <img class="image" src="assets/images/child-at-computer.jpg" alt="child-at-computer">
-            </section> -->
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="assets/passgen.png" class="card-img-top" alt="Password Generator">
+                    <div class="card-body">
+                        <h5 class="card-title">Password Generator</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="assets/WorkDayScheduler copy.png" class="card-img-top" alt="Day Planner">
+                    <div class="card-body">
+                        <h5 class="card-title">Day Planner</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="assets/starwarsquiz.png" class="card-img-top" alt="Star Wars Quiz">
+                    <div class="card-body">
+                        <h5 class="card-title">Star Wars Quiz</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="assets/project1inprogress.png" class="card-img-top" alt="Daily Homepage">
+                    <div class="card-body">
+                        <h5 class="card-title">Daily Homepage</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="assets/WorkDayScheduler copy.png" class="card-img-top" alt="Day Planner">
+                    <div class="card-body">
+                        <h5 class="card-title">Day Planner</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
+        <!--Footer-->
+        <footer>Copyright ©</footer>
     </div>
-
-    <!--Footer-->
-    <footer>Copyright ©</footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
