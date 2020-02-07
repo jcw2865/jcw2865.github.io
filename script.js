@@ -23,4 +23,10 @@ $(document).ready(function () {
         event.preventDefault();
         window.open("https://jcw2865.github.io/Project-1/");
     })
+    // Create click event to take user to the express note taker
+    var dailyHomepage = $("#expressNoteTaker");
+    dailyHomepage.on("click", function (event) {
+        event.preventDefault();
+        window.open("https://shrouded-chamber-01100.herokuapp.com/");
+    })
 })
