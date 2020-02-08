@@ -24,9 +24,15 @@ $(document).ready(function () {
         window.open("https://jcw2865.github.io/Project-1/");
     })
     // Create click event to take user to the express note taker
-    var dailyHomepage = $("#expressNoteTaker");
-    dailyHomepage.on("click", function (event) {
+    var expressNoteTaker = $("#expressNoteTaker");
+    expressNoteTaker.on("click", function (event) {
         event.preventDefault();
         window.open("https://shrouded-chamber-01100.herokuapp.com/");
+    })
+    // Create click event to take user to the express note taker
+    var electedOfficials = $("#electedOfficials");
+    electedOfficials.on("click", function (event) {
+        event.preventDefault();
+        window.open("https://quiet-meadow-10109.herokuapp.com/");
     })
 })

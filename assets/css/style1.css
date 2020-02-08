@@ -94,3 +94,9 @@ a {
 	margin: auto;
 	margin-top: 50px;
 }
+#strongLink {
+	color: #4aaaa5;
+}
+.link {
+	color: black;
+}
