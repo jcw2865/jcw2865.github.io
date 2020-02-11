@@ -12,10 +12,10 @@ $(document).ready(function () {
         window.open("https://jcw2865.github.io/homework-5/");
     })
     // Create click event to take user to star wars quiz
-    var starWarsQuiz = $("#starWarsQuiz");
+    var starWarsQuiz = $("#employeeTracker");
     starWarsQuiz.on("click", function (event) {
         event.preventDefault();
-        window.open("https://jcw2865.github.io/homework-4/");
+        window.open("https://github.com/jcw2865/Employee-Tracker");
     })
     // Create click event to take user to their daily homepage
     var dailyHomepage = $("#dailyHomepage");
