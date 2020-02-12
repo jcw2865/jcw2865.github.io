@@ -3,13 +3,13 @@ $(document).ready(function () {
     var passwordGenerator = $("#passwordGenerator");
     passwordGenerator.on("click", function (event) {
         event.preventDefault();
-        window.open("https://jcw2865.github.io/homework-3/");
+        window.open("https://jcw2865.github.io/Password-Generator/");
     })
     // Create click event to take user to day planner
     var dayPlanner = $("#dayPlanner");
     dayPlanner.on("click", function (event) {
         event.preventDefault();
-        window.open("https://jcw2865.github.io/homework-5/");
+        window.open("https://jcw2865.github.io/Day-Planner/");
     })
     // Create click event to take user to star wars quiz
     var starWarsQuiz = $("#employeeTracker");
@@ -21,7 +21,7 @@ $(document).ready(function () {
     var dailyHomepage = $("#dailyHomepage");
     dailyHomepage.on("click", function (event) {
         event.preventDefault();
-        window.open("https://jcw2865.github.io/Project-1/");
+        window.open("https://jcw2865.github.io/Daily-Homepage/");
     })
     // Create click event to take user to the express note taker
     var expressNoteTaker = $("#expressNoteTaker");
