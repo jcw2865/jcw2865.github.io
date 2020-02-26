@@ -1,0 +1,20 @@
+{
+  "name": "jcw2865.github.io",
+  "version": "1.0.0",
+  "description": "<!-- The purpose of this project was to build an application that can write, save, and delete notes using an express backend to save and retrieve note data from a JSON file. The project user story is below.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcw2865/jcw2865.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcw2865/jcw2865.github.io/issues"
+  },
+  "homepage": "https://github.com/jcw2865/jcw2865.github.io#readme"
+}
