@@ -1,10 +1,16 @@
 import React from "react";
+import "./style.css"
+import { Col, Row, Container } from "../components/Grid"
+import Card from "../components/Card";
 
 function About() {
   return (
     <div>
-      <h1>This is the About page. </h1>
-    </div>
+      <Container fluid>
+        <Card backgroundImage="">
+        </Card>
+      </Container>
+    </div >
   );
 }
 
