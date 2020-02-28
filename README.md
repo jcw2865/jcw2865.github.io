@@ -1,83 +1,68 @@
-# My Portfolio
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<!-- The purpose of this project was to build an application that can write, save, and delete notes using an express backend to save and retrieve note data from a JSON file. The project user story is below.
+## Available Scripts
 
-```
-AS A user, I want to be able to write and save notes
+In the project directory, you can run:
 
-I WANT to be able to delete notes I've written before
+### `npm start`
 
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
-```
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
- The criteria for a successful project are below: 
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-* Application should allow users to create and save notes.
+### `npm test`
 
-* Application should allow users to view previously saved notes. 
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-* Application should allow users to delete previously saved notes.  -->
+### `npm run build`
 
-## Getting Started
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<!-- The deployed project should look like this. Click the image to see a video of the deployed project.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-[![Deployed Project](ExpressNoteTakerSS.png)](https://youtu.be/wUAif9AWBDU) -->
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-Below is the link to the project repository and the project page hosted on GitHub pages.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-https://github.com/jcw2865/jcw2865.github.io
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-https://jcw2865.github.io/
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-<!-- ### Development
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Below are the steps I took to create the application as it is so far. The most difficult aspect of this application for me was using a constructor to cover all aspects of the notes (writing, reading, saving, deleting).  
+## Learn More
 
-1. Created and linked the initial files (JS files, HTML files, JSON files). 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-2. Downloaded all dependecies using npm. 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-3. Created all routes and verified them with small tests using Postman.
+### Code Splitting
 
-4. Created a constructor which contained functions for each element of the notes (writing, reading, saving, deleting).
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-5. Verify the functionality of the application, then deploy to Heroku. 
+### Analyzing the Bundle Size
 
-## Testing
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-This application was not developed using Test Driven Development. However, at numerous points throughout development, console.log's were used to test the results of new elements.  -->
+### Making a Progressive Web App
 
-## Deployment
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-This program can be viewed and deployed using most internet browsers via the links in the "Getting Started" section. 
+### Advanced Configuration
 
-## Built With
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-* [VSCode](https://code.visualstudio.com/) - The platform I used for developing this project.
-* [MDN](https://developer.mozilla.org/en-US/) - Used as a reference tool.
-* [GoogleChrome](https://www.google.com/chrome/) - Used for inspector tool and validating the project during development. 
-* [NodePackageManager](https://www.npmjs.com/) - Used to install node modules/dependencies
-* [Postman](https://www.getpostman.com/) - A collaboration platform for API development.
+### Deployment
 
-<!-- ## Contributing
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. -->
+### `npm run build` fails to minify
 
-## Authors
-
-* **Jake Walker** - [jcw2865](https://github.com/jcw2865)
-
-<!-- See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project. -->
-
-<!-- ## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details -->
-
-## Acknowledgments
-
-* The advisors, instructors, and TAs at the Coding Bootcamp at the University of Texas at Austin
-* Tutoring staff at Trilogy
-* Fellow classmates at the Coding Bootcamp at UT-Austin
-* Friends in the industry
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
