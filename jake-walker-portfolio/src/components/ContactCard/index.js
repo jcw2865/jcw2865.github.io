@@ -7,7 +7,7 @@ function ContactCard(props) {
       <div className="row no-gutters">
         <div className="col-md-12">
           <div className="card-body">
-            <div className="row">
+            <div id="contactRow" className="row">
               <h1 className="card-title">Contact Me</h1>
             </div>
             <ul>

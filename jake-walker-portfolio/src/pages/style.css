@@ -80,7 +80,6 @@ h3 {
 	color: #666666;
 }
 .card-title {
-	font-size: x-large;
 	color: #4aaaa5;
 }
 a {
@@ -102,4 +101,10 @@ a {
 }
 .card-link {
 	color: #4aaaa5;
+}
+.nav-link {
+	color: whitesmoke;
+}
+#contactRow {
+	justify-content: center;
 }

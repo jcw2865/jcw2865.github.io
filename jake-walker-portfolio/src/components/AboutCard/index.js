@@ -8,15 +8,15 @@ function AboutCard(props) {
     <div className="row no-gutters">
       <div className="col-md-12">
         <div className="card-body">
-          <h1 className="card-title">About Me</h1>
           <img src={Image} className="card-img" id="aboutMeImg"
             alt="About Me Image" />
-          <p className="card-text">My background is in operations and project management. For the past
-              five years
-              I have worked with both large organizations such as the United States Army as well as
-              burgeoning
-              tech start-ups. I am now looking to bring my operational skills to the field of web
-              development
+          <p className="card-text"><h1 className="card-title">About Me</h1>
+            My background is in operations and project management. For the past
+                          five years
+                          I have worked with both large organizations such as the United States Army as well as
+                          burgeoning
+                          tech start-ups. I am now looking to bring my operational skills to the field of web
+                          development
                                 and help organizations achieve their goals with efficiency and reliability.</p>
           <br />
           <p className="card-text"> I have been married to my beautiful wife, Natalie, since May 18th,
