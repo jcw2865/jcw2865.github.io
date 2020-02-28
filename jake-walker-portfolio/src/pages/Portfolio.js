@@ -1,11 +1,17 @@
 import React from "react";
+import "./style.css"
+import { Col, Row, Container } from "../components/Grid"
+import PortfolioCard from "../components/PortfolioCard";
+
 
 function Portfolio() {
     return (
-        <div>
-            <h1>This is the Portfolio page. </h1>
-        </div>
-    )
-};
+        <Container fluid>
+            <PortfolioCard>
+            </PortfolioCard>
+        </Container>
+
+    );
+}
 
 export default Portfolio;

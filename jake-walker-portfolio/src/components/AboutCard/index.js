@@ -3,7 +3,7 @@ import CardBtn from "../CardBtn";
 import "./style.css";
 import Image from "./IMG_3836.jpeg";
 
-function Card(props) {
+function AboutCard(props) {
   return (<div>
     <div className="row no-gutters">
       <div className="col-md-12">
@@ -57,4 +57,4 @@ function Card(props) {
   );
 }
 
-export default Card;
+export default AboutCard;

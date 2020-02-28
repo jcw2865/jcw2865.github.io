@@ -1,11 +1,17 @@
 import React from "react";
+import "./style.css"
+import { Col, Row, Container } from "../components/Grid"
+import ContactCard from "../components/ContactCard";
 
-function About() {
+
+function Contact() {
     return (
-        <div>
-            <h1>This is the Contact page. </h1>
-        </div>
+        <Container fluid>
+            <ContactCard>
+            </ContactCard>
+        </Container>
+
     );
 }
 
-export default About;
+export default Contact;

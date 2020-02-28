@@ -1,14 +1,14 @@
 import React from "react";
 import "./style.css"
 import { Col, Row, Container } from "../components/Grid"
-import Card from "../components/Card";
+import AboutCard from "../components/AboutCard";
 
 function About() {
   return (
     <div>
       <Container fluid>
-        <Card backgroundImage="">
-        </Card>
+        <AboutCard backgroundImage="">
+        </AboutCard>
       </Container>
     </div >
   );
