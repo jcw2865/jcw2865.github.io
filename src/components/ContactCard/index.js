@@ -16,7 +16,7 @@ function ContactCard(props) {
               </li>
               <br />
               <li>
-                <h5 className="card-title">Email: </h5>jcw2865@gmail.com
+                <h5 className="card-title">Email: </h5><a className="link" href="mailto: jcw2865@gmail.com">jcw2865@gmail.com</a>
               </li>
               <br />
               <li>
