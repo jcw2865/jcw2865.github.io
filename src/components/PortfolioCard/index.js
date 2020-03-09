@@ -6,12 +6,36 @@ import PassGen from "./images/passgen.png";
 import WorkDay from "./images/workday.png";
 import EmployeeTracker from "./images/EmployeeTracker.png";
 import ExpressNoteTaker from "./images/ExpressNoteTakerSS.png";
+import BookWyrmImage from "./images/BookWyrmScreenShot.png";
 
 
 function PortfolioCard(props) {
   return (
     <div>
       <div className="col-sm-8" id="portfolioContainer">
+        <div className="card" id="bookWyrm">
+          <img src={BookWyrmImage} className="card-img-top" alt="Book Wyrm" />
+          <div className="card-body">
+            <h5 className="card-title">Book Wyrm</h5>
+            <p className="card-text">User Story: <br />
+              AS AN avid reader <br />
+              I WANT to be able to search for books by title or author, and add or remove books to my personal list <br />
+              SO THAT I can keep track of books that I've read or would like to read.</p>
+            <p className="card-text"> Technologies Used: <br />
+              HTML <br />
+              CSS (Tailwind) <br />
+              Node.js <br />
+              JavaScript <br />
+              Express <br />
+              MongoDB <br />
+              React
+                            </p>
+            <a href="https://book-wyrm.herokuapp.com/" target="_blank" class="card-link">View
+                                Live Site</a>
+            <a href="https://github.com/jcw2865/book-wyrm" target="_blank" class="card-link">View
+                                GitHub Repo</a>
+          </div>
+        </div>
         <div className="card" id="dailyHomepage">
           <img src={HomepageImage} className="card-img-top" alt="Daily Homepage" />
           <div className="card-body">
