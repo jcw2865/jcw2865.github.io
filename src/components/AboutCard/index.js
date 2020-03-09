@@ -19,8 +19,7 @@ function AboutCard(props) {
                           development
                                 and help organizations achieve their goals with efficiency and reliability.</p>
           <br />
-          <p className="card-text"> I have been married to my beautiful wife, Natalie, since May 18th,
-              2019, and we have a three year old Jack-Russel/Shi-Tsu mix named Scoots. I love doing
+          <p className="card-text"> I have been married to my beautiful wife, Natalie, since May 2019, and we have a three year old Jack-Russel/Shi-Tsu mix named Scoots. I love doing
               all sorts of things, but I especially enjoy spending time with friends and family, being
               active, and experimenting in the kitchen. All of that being said I really do find joy in
               most things and am always eager to learn something new and try something for the first
