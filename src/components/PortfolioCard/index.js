@@ -10,11 +10,32 @@ import BookWyrmImage from "./images/BookWyrmScreenShot.png";
 
 
 function PortfolioCard(props) {
+  // console.log(props.imgSrc)
   return (
     <div>
       <div className="col-sm-8" id="portfolioContainer">
-        <div className="card" id="bookWyrm">
-          <img src={BookWyrmImage} className="card-img-top" alt="Book Wyrm" />
+        {/* <div className="card" id="bookWyrm">
+          <img src={props.imgSrc} className="card-img-top" alt="Project" />
+          <div className="card-body">
+            <h5 className="card-title">{props.name}</h5>
+            <p className="card-text">User Story: <br />
+              {props.userStoryAs} <br />
+              {props.userStoryIWant} <br />
+              {props.userStorySoThat} </p>
+            <ul className="card-text" style={{ listStyleType: "none" }}> Technologies Used: <br />
+              {props.techsUsed.map(item => (
+                <li>{item}</li>
+              ))}
+            </ul>
+            <a href={props.siteLink} target="_blank" className="card-link">View
+                                Live Site</a>
+            <a href={props.ghLink} target="_blank" className="card-link">View
+                                GitHub Repo</a>
+          </div>
+        </div> */}
+        {/* Below is to be used if not mapping */}
+        <div className="card" id="dailyHomepage">
+          <img src={BookWyrmImage} className="card-img-top" alt="Daily Homepage" />
           <div className="card-body">
             <h5 className="card-title">Book Wyrm</h5>
             <p className="card-text">User Story: <br />
@@ -23,19 +44,20 @@ function PortfolioCard(props) {
               SO THAT I can keep track of books that I've read or would like to read.</p>
             <p className="card-text"> Technologies Used: <br />
               HTML <br />
-              CSS (Tailwind) <br />
+              CSS (Tailwind)<br />
               Node.js <br />
               JavaScript <br />
               Express <br />
               MongoDB <br />
               React
                             </p>
-            <a href="https://book-wyrm.herokuapp.com/" target="_blank" class="card-link">View
+            <a href="https://book-wyrm.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="card-link">View
                                 Live Site</a>
-            <a href="https://github.com/jcw2865/book-wyrm" target="_blank" class="card-link">View
+            <a href="https://github.com/jcw2865/book-wyrm" target="_blank" rel="noopener noreferrer" className="card-link">View
                                 GitHub Repo</a>
           </div>
         </div>
+
         <div className="card" id="dailyHomepage">
           <img src={HomepageImage} className="card-img-top" alt="Daily Homepage" />
           <div className="card-body">
@@ -50,9 +72,9 @@ function PortfolioCard(props) {
               jQuery <br />
               JavaScript
                             </p>
-            <a href="https://jcw2865.github.io/Daily-Homepage/" target="_blank" class="card-link">View
+            <a href="https://jcw2865.github.io/Daily-Homepage/" target="_blank" rel="noopener noreferrer" className="card-link">View
                                 Live Site</a>
-            <a href="https://github.com/jcw2865/Daily-Homepage" target="_blank" class="card-link">View
+            <a href="https://github.com/jcw2865/Daily-Homepage" target="_blank" rel="noopener noreferrer" className="card-link">View
                                 GitHub Repo</a>
           </div>
         </div>
@@ -64,7 +86,7 @@ function PortfolioCard(props) {
               AS A a person with interest in politics <br />
               I WANT to be able to quickly see who my elected officials are <br />
               SO THAT I can keep up to date with the political climate.</p>
-            <p class="card-text"> Technologies Used: <br />
+            <p className="card-text"> Technologies Used: <br />
               HTML <br />
               CSS <br />
               jQuery <br />
@@ -72,9 +94,9 @@ function PortfolioCard(props) {
               Node.js <br />
               MySQL <br />
             </p>
-            <a href="https://quiet-meadow-10109.herokuapp.com/" target="_blank" className="card-link">View
+            <a href="https://quiet-meadow-10109.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="card-link">View
                                 Live Site</a>
-            <a href="https://github.com/Phoenix-99hp/Project-2" target="_blank" className="card-link">View
+            <a href="https://github.com/Phoenix-99hp/Project-2" target="_blank" rel="noopener noreferrer" className="card-link">View
                                 GitHub Repo</a>
           </div>
         </div>
@@ -92,9 +114,9 @@ function PortfolioCard(props) {
               jQuery <br />
               JavaScript</p>
             <a href="https://jcw2865.github.io/Password-Generator/" target="_blank"
-              className="card-link">View Live Site</a>
+              rel="noopener noreferrer" className="card-link">View Live Site</a>
             <a href="https://github.com/jcw2865/Password-Generator" target="_blank"
-              class="card-link">View GitHub
+              rel="noopener noreferrer" className="card-link">View GitHub
                                 Repo</a>
           </div>
         </div>
@@ -111,9 +133,9 @@ function PortfolioCard(props) {
               CSS <br />
               jQuery <br />
               JavaScript</p>
-            <a href="https://jcw2865.github.io/Day-Planner/" target="_blank" className="card-link">View Live
+            <a href="https://jcw2865.github.io/Day-Planner/" target="_blank" rel="noopener noreferrer" className="card-link">View Live
                                 Site</a>
-            <a href="https://github.com/jcw2865/Day-Planner" target="_blank" className="card-link">View
+            <a href="https://github.com/jcw2865/Day-Planner" target="_blank" rel="noopener noreferrer" className="card-link">View
                 GitHub
                                 Repo</a>
           </div>
@@ -135,9 +157,8 @@ function PortfolioCard(props) {
               Node.js <br />
               MySQL <br />
             </p>
-            <a href="https://github.com/jcw2865/Employee-Tracker" target="_blank" className="card-link">View
-                GitHub
-                                Repo</a>
+            <a href="https://github.com/jcw2865/Employee-Tracker" target="_blank" rel="noopener noreferrer" className="card-link">View
+                GitHub Repo</a>
           </div>
         </div>
         <div className="card" id="expressNoteTaker">
@@ -158,12 +179,13 @@ function PortfolioCard(props) {
               Express.js <br />
             </p>
             <a href="https://shrouded-chamber-01100.herokuapp.com/" target="_blank"
-              className="card-link">View Live Site</a>
+              rel="noopener noreferrer" className="card-link">View Live Site</a>
             <a href="https://github.com/jcw2865/Express-Note-Taker" target="_blank"
-              className="card-link">View GitHub
+              rel="noopener noreferrer" className="card-link">View GitHub
                                 Repo</a>
           </div>
         </div>
+        {/* Above is to be used if not mapping */}
       </div>
     </div>
   );
