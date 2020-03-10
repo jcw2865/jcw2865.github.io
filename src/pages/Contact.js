@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css"
-import { Col, Row, Container } from "../components/Grid"
+// import { Col, Row, Container } from "../components/Grid"
+import { Container } from "../components/Grid"
 import ContactCard from "../components/ContactCard";
 
 

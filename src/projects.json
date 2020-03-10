@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "BookWyrmImage",
+        "name": "Book Wyrm",
+        "userStoryAs": "AS AN avid reader",
+        "userStoryIWant": "I WANT to be able to search for books by title or author, and add or remove books to my personal list",
+        "userStorySoThat": "SO THAT I can keep track of books that I've read or would like to read.",
+        "techsUsed": [
+            "HTML",
+            "CSS (Tailwind)",
+            "Node.js",
+            "JavaScript",
+            "Express",
+            "MongoDB",
+            "React"
+        ],
+        "siteLink": "https://book-wyrm.herokuapp.com/",
+        "ghLink": "https://github.com/jcw2865/book-wyrm"
+    },
+    {
+        "id": 2,
+        "imgSrc": "",
+        "name": "Daily Homepage",
+        "userStoryAs": "AS A busy person",
+        "userStoryIWant": "I WANT to be able to quickly see important information about my day",
+        "userStorySoThat": "SO THAT I can keep up-to-date with current events and plan my day efficiently. ",
+        "techsUsed": [
+            "HTML",
+            "CSS",
+            "jQuery",
+            "JavaScript"
+        ],
+        "siteLink": "https://jcw2865.github.io/Daily-Homepage/",
+        "ghLink": "https://github.com/jcw2865/Daily-Homepage"
+    },
+    {
+        "id": 3,
+        "imgSrc": "",
+        "name": "Elected Officials",
+        "userStoryAs": "AS A a person with interest in politics",
+        "userStoryIWant": "I WANT to be able to quickly see who my elected officials are",
+        "userStorySoThat": "SO THAT I can keep up to date with the political climate.",
+        "techsUsed": [
+            "HTML",
+            "CSS",
+            "jQuery",
+            "JavaScript",
+            "Node.js",
+            "MySQL"
+        ],
+        "siteLink": "https://quiet-meadow-10109.herokuapp.com/",
+        "ghLink": "https://github.com/Phoenix-99hp/Project-2"
+    },
+    {
+        "id": 4,
+        "imgSrc": "",
+        "name": "Password Generator",
+        "userStoryAs": "AS AN employee with access to sensitive data ",
+        "userStoryIWant": "I WANT to randomly generate a password that meets certain criteria ",
+        "userStorySoThat": "SO THAT I can create a strong password that provides greater security.",
+        "techsUsed": [
+            "HTML",
+            "CSS",
+            "jQuery",
+            "JavaScript"
+        ],
+        "siteLink": "https://jcw2865.github.io/Password-Generator/",
+        "ghLink": "https://github.com/jcw2865/Password-Generator"
+    },
+    {
+        "id": 5,
+        "imgSrc": "",
+        "name": "Day Planner",
+        "userStoryAs": "AS AN employee with a busy schedule ",
+        "userStoryIWant": "I WANT to add important events to a daily planner ",
+        "userStorySoThat": "SO THAT I can manage my time effectively. ",
+        "techsUsed": [
+            "HTML",
+            "CSS",
+            "jQuery",
+            "JavaScript"
+        ],
+        "siteLink": "https://jcw2865.github.io/Day-Planner/",
+        "ghLink": "https://github.com/jcw2865/Day-Planner"
+    },
+    {
+        "id": 6,
+        "imgSrc": "",
+        "name": "Employee Tracker",
+        "userStoryAs": "AS A business owner ",
+        "userStoryIWant": "I WANT to be able to view and manage the departments, roles, and employees in my company",
+        "userStorySoThat": "SO THAT I can organize and plan my business. ",
+        "techsUsed": [
+            "HTML",
+            "CSS",
+            "jQuery",
+            "JavaScript",
+            "Node.js",
+            "MySQL"
+        ],
+        "siteLink": "",
+        "ghLink": "https://github.com/jcw2865/Employee-Tracker"
+    },
+    {
+        "id": 7,
+        "imgSrc": "",
+        "name": "Express Note Taker",
+        "userStoryAs": "AS A user, I want to be able to write and save notes ",
+        "userStoryIWant": "I WANT to be able to delete notes I've written before ",
+        "userStorySoThat": "SO THAT I can organize my thoughts and keep track of tasks I need to complete. ",
+        "techsUsed": [
+            "HTML",
+            "CSS",
+            "jQuery",
+            "JavaScript",
+            "Node.js",
+            "Express.js"
+        ],
+        "siteLink": "https://shrouded-chamber-01100.herokuapp.com/",
+        "ghLink": "https://github.com/jcw2865/Express-Note-Taker"
+    }
+]

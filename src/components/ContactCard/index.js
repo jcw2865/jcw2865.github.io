@@ -21,13 +21,13 @@ function ContactCard(props) {
               <br />
               <li>
                 <h5 className="card-title">GitHub</h5>
-                <a href="https://github.com/jcw2865"
+                <a href="https://github.com/jcw2865" target="_blank" rel="noopener noreferrer"
                   className="link">jcw2865</a>
               </li>
               <br />
               <li>
                 <h5 className="card-title">LinkedIn</h5>
-                <a href="https://www.linkedin.com/in/jake-walker-22005361/" className="link">Jake Walker</a>
+                <a href="https://www.linkedin.com/in/jake-walker-22005361/" target="_blank" rel="noopener noreferrer" className="link">Jake Walker</a>
               </li>
             </ul>
           </div>
