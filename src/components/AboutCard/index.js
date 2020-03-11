@@ -34,6 +34,8 @@ function AboutCard(props) {
               <li>jQuery</li>
               <li>Node.js</li>
               <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>React</li>
             </ul>
           </div>
           <br />
